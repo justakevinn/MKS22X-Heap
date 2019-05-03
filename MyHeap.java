@@ -71,9 +71,9 @@ public class MyHeap{
   public static void main(String[] args){
     int[] ary = {1, 2, 5, 2, 7, 31, 7, 12, 6, 1, 6};
     heapify(ary);
-    System.out.println(ary);
+    System.out.println(Arrays.toString(ary));
     heapsort(ary);
-    System.out.println(ary);
+    System.out.println(Arrays.toString(ary));
   }
 /*
 
